@@ -1,3 +1,3 @@
 git add . ;
-echo -e "\tPlease enter commit message :" && read COMMITMSG && git commit -m "$COMMITMSG" && read && clear;
-git push && echo -e "Push command Done! click return to clear screen." && read && clear
+echo -e "\n\tPlease enter commit message :" && read COMMITMSG && git commit -m "$COMMITMSG" && echo "Commited Successfully! press return." && read && clear;
+git push && echo -e "\n\tPush command Done! click return to clear screen." && read && clear
